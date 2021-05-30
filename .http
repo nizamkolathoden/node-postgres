@@ -1,0 +1,38 @@
+POST http://localhost:3005/api
+Content-Type: application/json
+
+{
+    "name":"kfc",
+    "location":"malappuram",
+    "price_range":"170"
+}
+
+###
+GET http://localhost:3005/api/1
+Content-Type: application/json
+
+{
+    "name":"kfc",
+    "location":"malappuram",
+    "price_range":"170"
+}
+
+###
+GET http://localhost:3005/api
+Content-Type: application/json
+
+{
+    "name":"kfc",
+    "location":"malappuram",
+    "price_range":"170"
+}
+
+###
+PUT http://localhost:3005/api/1
+Content-Type: application/json
+
+{
+    "name":"edit",
+    "location":"malappuram",
+    "price":"170"
+}
